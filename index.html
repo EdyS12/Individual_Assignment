@@ -2,6 +2,52 @@
 <html>
   <head>
     <link rel="stylesheet" href="homePage.css" />
+
+    <script>
+      document.addEventListener("DOMContentLoaded", nav);
+      $(document).ready(function () {
+        $("#option_1").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: $(".card_1").offset().top,
+            },
+            1000
+          );
+        });
+        $("#option_2").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: $(".card_2").offset().top,
+            },
+            1000
+          );
+        });
+        $("#option_3").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: $(".card_3").offset().top,
+            },
+            1000
+            );
+        });
+        $("#option_4").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: $(".card_4").offset().top - 48,
+            },
+            1000
+          );
+        });
+        $("#option_5").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: $(".card_5").offset().top,
+            },
+            1000
+          );
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="landing_page">
@@ -13,13 +59,13 @@
       <div class="col">
         <select id="pick_card" name="pick_card">
           <option value="" disabled selected hidden>Choose a card</option>
-          <option value="option_1">
+          <option value="option_1" id="option_1">
             Grandmother with macular degeneration
           </option>
-          <option value="option_2">Cerebral palsy, living independently</option>
-          <option value="option_3">Student with ADHD and anxiety</option>
-          <option value="option_4">Living with fatigue and pain</option>
-          <option value="option_5">Bilingual mobile phone user</option>
+          <option value="option_2" id="option_2">Cerebral palsy, living independently</option>
+          <option value="option_3" id="option_3">Student with ADHD and anxiety</option>
+          <option value="option_4" id="option_4">Living with fatigue and pain</option>
+          <option value="option_5" id="option_5">Bilingual mobile phone user</option>
         </select>
       </div>
 
