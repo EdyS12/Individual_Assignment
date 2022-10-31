@@ -10,7 +10,7 @@
             <h2>by Vivian Motti</h2>
         </div>
 
-      <!--<div class="col">
+      <div class="col">
         <select class="pick_card" id="pick_card" name="pick_card">
           <option value="" disabled selected hidden>Choose a card</option>
           <option value="option_1" class="item" id="option_1">
@@ -21,20 +21,7 @@
           <option value="option_4" class="item" id="option_4">Living with fatigue and pain</option>
           <option value="option_5" class="item" id="option_5">Bilingual mobile phone user</option>
         </select>
-      </div> -->
-      <div class="form">
-      <div class="col">
-        <p>Choose a card</p>
-        <button id="btn" onclick="toggle(this);">^</button>
       </div>
-      <ul id="myul">
-        <li>Grandmother with macular degeneration</li>
-        <li>Cerebral palsy, living independently</li>
-        <li>University student with ADHD and anxiety</li>
-        <li>Living with fatigue and pain</li>
-        <li>Bilingual mobile phone user</li>
-      </ul>
-    </div>
 
       <h3>or <br/>scroll down</h3>
     </div>
@@ -140,19 +127,6 @@
 
 
     <script>
-      let toggle = (button) => {
-        let element = document.getElementById("myul");
-        let hidden = element.getAttribute("hidden");
-
-        if (hidden) {
-          element.removeAttribute("hidden");
-          button.innerText = "^";
-        } else {
-          element.setAttribute("hidden", "hidden");
-          button.innerText = "v";
-        }
-      };
-
     // Get the button
     let mybutton = document.getElementById("myBtn");
     
