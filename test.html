@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div class="col">
+        <p>Choose a card</p>
+        <button onclick="toggle(this);">^</button>
+      </div>
+      <ul id="myul">
+        <li>Grandmother with macular degeneration</li>
+        <li>Cerebral palsy, living independently</li>
+        <li>University student with ADHD and anxiety</li>
+        <li>Living with fatigue and pain</li>
+        <li>Bilingual mobile phone user</li>
+      </ul>
+    </div>
+    <br />
+
+    <script>
+      let toggle = (button) => {
+        let element = document.getElementById("myul");
+        let hidden = element.getAttribute("hidden");
+
+        if (hidden) {
+          element.removeAttribute("hidden");
+          button.innerText = "^";
+        } else {
+          element.setAttribute("hidden", "hidden");
+          button.innerText = "v";
+        }
+      };
+    </script>
+  </body>
+</html>
