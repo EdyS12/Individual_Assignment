@@ -1,0 +1,64 @@
+body {
+  font-family: "Verdana";
+  background-color: #fdfdfd;
+  margin: 0;
+
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  top: 24px;
+  left: -10px;
+  width: 250px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 100%;
+
+  /*border: 3px solid pink;*/
+}
+
+h1 {
+  font-size: 38px;
+  padding-left: 88px;
+}
+
+.miolo {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0 115px;
+
+  /*border: 3px solid green;*/
+}
+
+img {
+  height: 550px;
+  width: auto;
+  padding-left: 35px;
+  /*border: 3px solid blue;*/
+}
+
+p {
+  padding-left: 40px;
+  font-size: 20px;
+  /*border: 3px solid red;*/
+}
+
+a:hover {
+  background-color: yellow;
+  cursor: default;
+}

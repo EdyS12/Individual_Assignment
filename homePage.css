@@ -1,0 +1,296 @@
+body {
+  font-family: "Verdana";
+  background-color: #fdfdfd;
+  margin: 0;
+}
+
+.landing_page {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+
+  /*border: 3px solid red;*/
+}
+
+#titles {
+  margin-top: 10%;
+}
+
+select {
+  width: 100%;
+  height: 50px;
+
+  font-size: 18px;
+  color: #303030;
+
+  border: none;
+  outline: none;
+  padding-left: 16px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 12px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 64px;
+  text-align: center;
+  margin: 0;
+
+  color: #303030;
+  /*border: 3px solid #73ad21;*/
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 54px;
+  text-align: center;
+  margin: 0;
+
+  color: #303030;
+  /*border: 3px solid #73ad21;*/
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  justify-content: end;
+
+  color: #303030;
+  /*border: 3px solid #73ad21;*/
+}
+
+.col {
+  margin: auto;
+  width: 30%;
+  /*border: 3px solid #73ad21;*/
+  padding: 10px;
+  padding-bottom: 200px;
+}
+
+.persona_cards {
+  /*border: 3px solid red;*/
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: fit-content;
+}
+
+.cards {
+  /*border: 3px solid blue;*/
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subtitle {
+  padding: 0 0 0 11%;
+  /*border: 3px solid #73ad21;*/
+  margin: 0;
+  margin-bottom: 24px;
+
+  font-size: 58px;
+  text-align: left;
+}
+
+.imagem {
+  border: 2px solid black;
+  width: 95%;
+  margin: 24px auto 8px 0;
+}
+
+/*------------------------------------- CARTA 1 */
+.card_1 {
+  position: relative;
+
+  padding: 24px 0 32px 48px;
+  margin-left: 170px;
+  margin-bottom: 96px;
+  width: 75%;
+  height: fit-content;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 25.375px rgba(0, 0, 0, 0.25);
+}
+
+.card_1 p {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+
+  color: #303030;
+}
+
+.card_1 img {
+  height: 400px;
+  width: auto;
+  margin-left: 240px;
+
+  /*border: 2px solid pink;*/
+}
+
+/*------------------------------------- CARTA 2 */
+.card_2 {
+  position: relative;
+
+  padding: 24px 0 32px 48px;
+  margin-left: 170px;
+  margin-bottom: 96px;
+  width: 75%;
+  height: fit-content;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 25.375px rgba(0, 0, 0, 0.25);
+}
+
+.card_2 p {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+
+  color: #303030;
+}
+
+.card_2 img {
+  height: 400px;
+  width: auto;
+  margin-left: 240px;
+
+  /*border: 2px solid pink;*/
+}
+
+/*------------------------------------- CARTA 3 */
+.card_3 {
+  position: relative;
+
+  padding: 24px 0 32px 48px;
+  margin-left: 170px;
+  margin-bottom: 96px;
+  width: 75%;
+  height: fit-content;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 25.375px rgba(0, 0, 0, 0.25);
+}
+
+.card_3 p {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+
+  color: #303030;
+}
+
+.card_3 img {
+  height: 400px;
+  width: auto;
+  margin-left: 240px;
+
+  /*border: 2px solid pink;*/
+}
+
+/*------------------------------------- CARTA 4 */
+.card_4 {
+  position: relative;
+
+  padding: 24px 0 32px 48px;
+  margin-left: 170px;
+  margin-bottom: 96px;
+  width: 75%;
+  height: fit-content;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 25.375px rgba(0, 0, 0, 0.25);
+}
+
+.card_4 p {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+
+  color: #303030;
+}
+
+.card_4 img {
+  height: 400px;
+  width: auto;
+  margin-left: 240px;
+
+  /*border: 2px solid pink;*/
+}
+
+/*------------------------------------- CARTA 5 */
+.card_5 {
+  position: relative;
+
+  padding: 24px 0 32px 48px;
+  margin-left: 170px;
+  margin-bottom: 96px;
+  width: 75%;
+  height: fit-content;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 25.375px rgba(0, 0, 0, 0.25);
+}
+
+.card_5 p {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+
+  color: #303030;
+}
+
+.card_5 img {
+  height: 400px;
+  width: auto;
+  margin-left: 240px;
+
+  /*border: 2px solid pink;*/
+}
+
+button {
+  text-align: center;
+  font-family: "Verdana";
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+
+  background-color: #303030;
+  width: 95.5%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: -10px;
+  width: 200px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
